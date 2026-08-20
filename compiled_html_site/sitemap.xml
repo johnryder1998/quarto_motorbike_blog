@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://your-website-url.example.com/about.html</loc>
+    <lastmod>2026-08-19T10:54:24.232Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/posts/suzuki_gixxer_250/index.html</loc>
+    <lastmod>2026-08-19T11:10:01.750Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/posts/honda_cb125f/index.html</loc>
+    <lastmod>2026-08-19T10:31:00.326Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/posts/kawasaki_klr_650/index.html</loc>
+    <lastmod>2026-08-19T11:01:50.527Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/index.html</loc>
+    <lastmod>2026-08-19T10:45:11.375Z</lastmod>
+  </url>
+</urlset>

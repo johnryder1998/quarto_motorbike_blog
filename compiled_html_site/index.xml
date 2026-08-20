@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Boy Meets Bike</title>
+<link>https://your-website-url.example.com/</link>
+<atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
+<description>Down-under motorbike reviews and commentary.</description>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Tue, 18 Aug 2026 12:00:00 GMT</lastBuildDate>
+<item>
+  <title>Kawasaki KLR 650</title>
+  <dc:creator>John Ryder</dc:creator>
+  <link>https://your-website-url.example.com/posts/kawasaki_klr_650/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="kawasaki-klr-650" class="level1">
+<h1>Kawasaki KLR 650</h1>
+<p>“doohicky?” not needed probably?</p>
+<p>include Photos from trips down south</p>
+<p>Talk about big cylinder thump and power. only made cool by the Two Brothers exhaust.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>review</category>
+  <category>analysis</category>
+  <guid>https://your-website-url.example.com/posts/kawasaki_klr_650/</guid>
+  <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+  <media:content url="https://your-website-url.example.com/posts/kawasaki_klr_650/temp_image.png" medium="image" type="image/png" height="111" width="144"/>
+</item>
+<item>
+  <title>Suzuki Gixxer 250</title>
+  <dc:creator>John Ryder</dc:creator>
+  <link>https://your-website-url.example.com/posts/suzuki_gixxer_250/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="suzuki-gixxer-250" class="level1">
+<h1>Suzuki Gixxer 250</h1>
+<p>not as flicky as I thought it would be? geometry seems to promote long sweeping turns.</p>
+<p>It’s clear that Suzuki has pushed as much out of this engine as they could.</p>
+<p>Stylish, great price</p>
+
+
+</section>
+
+ ]]></description>
+  <category>review</category>
+  <category>analysis</category>
+  <guid>https://your-website-url.example.com/posts/suzuki_gixxer_250/</guid>
+  <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+  <media:content url="https://your-website-url.example.com/posts/suzuki_gixxer_250/temp_image.png" medium="image" type="image/png" height="111" width="144"/>
+</item>
+<item>
+  <title>Honda CB125F</title>
+  <dc:creator>John Ryder</dc:creator>
+  <link>https://your-website-url.example.com/posts/honda_cb125f/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="honda-cb125f" class="level1">
+<h1>Honda CB125F</h1>
+<p>There seems to be a push right now for less. This is probably driven by us seeking a <em>correction</em> against most new products which are flooded with too many features. Features we don’t want and didn’t ask for. Fridges with screens, , and, of course, AI integrations fucking everywhere. We know the feeling well now, <em>enshitification</em>, and the cramming of features into products that solve problems we never had.</p>
+<p>So now we gawk at Kei trucks in their simplistic glory. This is where the CB125F comes in as well. A basic and reliable motorbike that can get you to work for pennies worth of fuel.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>review</category>
+  <category>trending</category>
+  <category>analysis</category>
+  <guid>https://your-website-url.example.com/posts/honda_cb125f/</guid>
+  <pubDate>Thu, 04 Jun 2026 12:00:00 GMT</pubDate>
+  <media:content url="https://your-website-url.example.com/posts/honda_cb125f/honda_cb125f.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+</channel>
+</rss>
