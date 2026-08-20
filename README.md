@@ -1,5 +1,3 @@
-# quarto_motorbike_blog
+## John's motorbike blog
 
-Proposed title:
-highbrow lowbrow motorbike blog
-Home page header: HLMB
+readme content here
