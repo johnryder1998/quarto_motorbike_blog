@@ -10,6 +10,8 @@ https://quarto-motorbike-blog.johnryderwhiting.workers.dev/
 Local rendering procedure
 
 ```bash
+$ git branch
+
 $ quarto render
 
 $ git add .
