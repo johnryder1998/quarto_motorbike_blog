@@ -16,10 +16,10 @@ $ quarto render
 
 $ git add .
 
+# check all links are valid
+$ lychee --threads 1 --max-concurrency 1 --accept 100..=103,200..=299,429 "**/*.qmd"
+
 $ git commit -m "$(date)"
 
 $ git push origin [main|internet_published]
-
-# check all links are valid
-$ lychee --threads 1 --max-concurrency 1 --accept 100..=103,200..=299,429 "**/*.qmd"
 ```
