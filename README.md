@@ -21,5 +21,5 @@ $ lychee --threads 1 --max-concurrency 1 --accept 100..=103,200..=299,429 "**/*.
 
 $ git commit -m "$(date)"
 
-$ git push origin [main|internet_published]
+$ git push origin [internet_published]
 ```

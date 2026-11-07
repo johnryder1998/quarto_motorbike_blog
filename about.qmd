@@ -1,0 +1,8 @@
+---
+title: "About"
+image: images/profile_photo.JPEG
+about:
+  template: jolla
+---
+
+John has been riding motorcycles since the beginning of 2022. This blog is a showcase of Aotearoa's natural wonder and what it's like exploring it on two wheels.

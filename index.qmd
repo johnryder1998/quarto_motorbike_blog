@@ -1,0 +1,17 @@
+---
+title: "GLMB Homepage"
+listing:
+  contents: posts
+  feed: true
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+Welcome to the Great Lake Motorbike blog. A down-under motorbike reviews and lifestyle blog riding around lake Taupō.
+
+\

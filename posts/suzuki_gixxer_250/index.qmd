@@ -1,0 +1,30 @@
+---
+title: "Suzuki Gixxer 250"
+author: "John Ryder"
+date: "2026-08-19"
+categories: [review, analysis]
+image: "../../images/coming_soon.jpeg"
+comments:
+  hypothesis: 
+    theme: clean
+---
+
+# Suzuki GSX 250 RL
+
+_coming soon_
+
+<!--
+I got this bike as a correction to my mistake in buying the [Honda CB125F](../honda_cb125f/index.qmd). I wanted enough power for the bike to be usable, while retaining attributes I liked in the Honda. So, when a Suzuki GSX 250 with 2300 km's for \$3,860 came up for sale in Wellington, I decided to hop on the old InterCity and buy it.
+
+I feel like a lot people are sleeping on this bike, or maybe people are aware of it but are blinded by its bad rap. Sadly, that bad rap is not totally unfounded. 'Gixxer 250' immediately conjures images broccoli headed teenage boys with undeveloped frontal lobes. A stereotype that has a lot of overlap with *Surron riders*. If the GSX 250 is written of because of its rider stereotype, then it's a shame to not give this bike some more thought.
+
+But I don't actually think many people are actually chosing not to buy this bike because of it's stereotype. The Suzuki GSX 250 is a stylish, petrol efficient, and peppy little bike with modern technology. And the biggest draw - it's \$4,999 NZD brand new! Am I missing something other people aren't? Why do more people not buy this bike? That's really cheap for a brand new little commuter. Sure it's put together in China but surely we can still trust Suzuki engineering ^[The idea that chinese manufacturting is sub-par I suspect partially from racist ideals. It seems abundently clear in 2026 that China manufacturing is world class. Get with the times, and let the evidence speak for itself.]. Kawasaki's KLX300 is priced at \$9,177. The Honda GB350S is \$8,995. Even the fricken CF MOTO 250 cc bikes are over \$7,400 NZD. The Suzuki GSX 250 best quality is its value. But how does it drive?
+
+
+
+not as flicky as I thought it would be? geometry seems to promote long sweeping turns.
+
+It's clear that Suzuki has pushed as much out of this engine as they could.
+
+Stylish, great price
+-->

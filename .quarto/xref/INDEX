@@ -1,0 +1,23 @@
+{
+  "posts/welcome/index.qmd": {
+    "index.html": "231aab1f"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "1ee0d39f"
+  },
+  "index.qmd": {
+    "index.html": "2135778e"
+  },
+  "about.qmd": {
+    "about.html": "62c3f75f"
+  },
+  "posts/honda_cb125f/index.qmd": {
+    "index.html": "366075ec"
+  },
+  "posts/kawasaki_klr_650/index.qmd": {
+    "index.html": "79d82b75"
+  },
+  "posts/suzuki_gixxer_250/index.qmd": {
+    "index.html": "c188a090"
+  }
+}
