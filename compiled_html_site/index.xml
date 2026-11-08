@@ -9,7 +9,7 @@
 <link>https://your-website-url.example.com/</link>
 <atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>Down-under motorbike reviews and lifestyle blog. Where every bike gets a lap of the lake!</description>
-<generator>quarto-1.9.38</generator>
+<generator>quarto-1.11.9</generator>
 <lastBuildDate>Sat, 07 Nov 2026 11:00:00 GMT</lastBuildDate>
 <item>
   <title>Suzuki Gixxer 250</title>
@@ -64,7 +64,7 @@ Surprisingly the GSX 250 RL is not as 'flicky' as you might suspect, and its geo
   <category>analysis</category>
   <guid>https://your-website-url.example.com/posts/suzuki_gixxer_250/</guid>
   <pubDate>Sat, 07 Nov 2026 11:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/images/DSC03851.JPEG" medium="image"/>
+  <media:content url="https://your-website-url.example.com/images/DSC03851.JPEG" medium="image" height="81" width="144"/>
 </item>
 <item>
   <title>Honda CB125F</title>
@@ -121,7 +121,7 @@ Surprisingly the GSX 250 RL is not as 'flicky' as you might suspect, and its geo
   <category>trending</category>
   <guid>https://your-website-url.example.com/posts/honda_cb125f/</guid>
   <pubDate>Sun, 20 Sep 2026 12:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/images/DSC03115.JPG" medium="image"/>
+  <media:content url="https://your-website-url.example.com/images/DSC03115.JPG" medium="image" height="81" width="144"/>
 </item>
 <item>
   <title>Yamaha SRV 250 S</title>
@@ -157,8 +157,8 @@ Surprisingly the GSX 250 RL is not as 'flicky' as you might suspect, and its geo
   <category>review</category>
   <category>analysis</category>
   <guid>https://your-website-url.example.com/posts/1993_Yamaha_SRV250S/</guid>
-  <pubDate>Sun, 08 Nov 2026 09:26:48 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/images/DSC03877.JPEG" medium="image"/>
+  <pubDate>Sun, 08 Nov 2026 22:53:42 GMT</pubDate>
+  <media:content url="https://your-website-url.example.com/images/DSC03877.JPEG" medium="image" height="96" width="144"/>
 </item>
 <item>
   <title>Kawasaki KLR 650</title>
@@ -199,8 +199,8 @@ Talk about big cylinder thump and power. only made cool by the Two Brothers exha
   <category>review</category>
   <category>analysis</category>
   <guid>https://your-website-url.example.com/posts/kawasaki_klr_650/</guid>
-  <pubDate>Sun, 08 Nov 2026 09:26:48 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/images/coming_soon.jpeg" medium="image" type="image/jpeg"/>
+  <pubDate>Sun, 08 Nov 2026 22:53:42 GMT</pubDate>
+  <media:content url="https://your-website-url.example.com/images/coming_soon.jpeg" medium="image" type="image/jpeg" height="95" width="144"/>
 </item>
 </channel>
 </rss>

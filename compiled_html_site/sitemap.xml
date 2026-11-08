@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://your-website-url.example.com/about.html</loc>
-    <lastmod>2026-09-21T10:29:43.204Z</lastmod>
-  </url>
-  <url>
-    <loc>https://your-website-url.example.com/posts/suzuki_gixxer_250/index.html</loc>
-    <lastmod>2026-11-08T09:23:23.305Z</lastmod>
-  </url>
-  <url>
-    <loc>https://your-website-url.example.com/posts/honda_cb125f/index.html</loc>
-    <lastmod>2026-09-21T10:27:44.940Z</lastmod>
+    <loc>https://your-website-url.example.com/posts/kawasaki_klr_650/index.html</loc>
+    <lastmod>2026-11-08T22:41:02.025Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/posts/1993_Yamaha_SRV250S/index.html</loc>
-    <lastmod>2026-11-08T09:08:27.688Z</lastmod>
-  </url>
-  <url>
-    <loc>https://your-website-url.example.com/posts/kawasaki_klr_650/index.html</loc>
-    <lastmod>2026-11-08T08:46:29.500Z</lastmod>
+    <lastmod>2026-11-08T22:41:02.025Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/index.html</loc>
-    <lastmod>2026-09-21T10:34:58.410Z</lastmod>
+    <lastmod>2026-11-07T07:19:57.322Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/about.html</loc>
+    <lastmod>2026-11-07T07:19:56.920Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/posts/honda_cb125f/index.html</loc>
+    <lastmod>2026-11-07T07:19:57.322Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/posts/suzuki_gixxer_250/index.html</loc>
+    <lastmod>2026-11-08T22:41:02.025Z</lastmod>
   </url>
 </urlset>
