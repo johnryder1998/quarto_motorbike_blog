@@ -1,0 +1,15 @@
+---
+title: "Yamaha SRV 250 S"
+author: "John Ryder"
+#date: ""
+categories: [review, analysis]
+image: "../../images/DSC03877.JPEG"
+---
+
+# Yamaha SRV 250 S
+
+***Coming soon...***
+
+![Serious driveway clout...](../../images/DSC03877.JPEG){width=90% fig-align="center"}
+
+![The SRV250 in transport](../../images/SRV250_trailer.JPEG){width=80% fig-align="center"}

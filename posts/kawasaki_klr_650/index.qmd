@@ -1,16 +1,17 @@
 ---
 title: "Kawasaki KLR 650"
 author: "John Ryder"
-date: "2026-08-19"
+#date: "2026-08-19"
 categories: [review, analysis]
 image: "../../images/coming_soon.jpeg"
 ---
 
 # Kawasaki KLR 650
 
+***Comming soon...***
+
+<!--
 The KLR, the Tractor, the Trusty Pig - 
-
-
 
 
 The KLR is certainly not a refined bike. It gets vibey past 5,000 RPM, shift lever ergonomics are poor (needs to be  pulled too high). 
@@ -20,13 +21,9 @@ When the KLR first debuted it was advertised as a "sporty xXXX" believe it or no
 
 
 
-
-
-
-
 "doohicky repair?" not needed probably.
 
 include Photos from trips down south
 
 Talk about big cylinder thump and power. only made cool by the Two Brothers exhaust.
-
+-->
