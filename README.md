@@ -6,7 +6,7 @@ https://quarto-motorbike-blog.johnryderwhiting.workers.dev/
 
 The `working_branch` is where the under construction unpublished site is stored. The `internet_published` branch stores the internet published site. Recall, both branches are visible to the internet.
 
-Push local changes to remote `working_branch`.
+Procedure to push local changes to remote `working_branch`:
 ```bash
 $ git switch working_branch
 
