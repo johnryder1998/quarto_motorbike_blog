@@ -12,6 +12,7 @@ website:
       - about.qmd
 format:
   html:
+    include-after-body: cloudflare-analytics.html
     anchor-sections: true
     smooth-scroll: true
     toc: true
