@@ -10,7 +10,7 @@ Procedure to push local changes to remote `working_branch`:
 ```bash
 $ git switch working_branch
 
-# remove all metadata from images
+# remove all metadata from images. After running this, images might need to be rotated back into the correct orientation.
 $ exiftool -verbose -all= -overwrite_original -ext jpg -ext JPG -ext jpeg -ext JPEG -ext png /home/whitingj/quarto_motorbike_blog/images/
 
 # check all links are valid
