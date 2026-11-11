@@ -5,4 +5,4 @@ about:
   template: jolla
 ---
 
-John has been riding motorcycles since the beginning of 2022. This blog is a showcase of Aotearoa's natural wonder and what it's like exploring it on two wheels.
+Hello, my name is John. I've been riding motorcycles since the beginning of 2022. The aim of this blog is to critically discuss motorbikes and showcase the natural beauty of central Waikato. Big picture, I think I'm trying to find *the worlds best motorbike*. This will take a while.

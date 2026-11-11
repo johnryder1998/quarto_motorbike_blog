@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.11.9">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -14,13 +14,10 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
+code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -41,19 +38,18 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../images/favicon.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-447e42e69aaa9833c0ba1b986f430b20.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-4528e7617473cb5f12e0a450038d2ed3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-ad3c2f2c62330d2ae5d227cef7ee82ed.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-4528e7617473cb5f12e0a450038d2ed3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-eb7bf75a496de9d447f5028c2d1a779f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-6a7d34fc6186ec67fb76ee2e6ba6d059.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-eb7bf75a496de9d447f5028c2d1a779f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -97,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -120,7 +116,6 @@ ul.task-list li input[type="checkbox"] {
       for (let i=0; i < toggles.length; i++) {
         const toggle = toggles[i];
         if (toggle) {
-          toggle.setAttribute("aria-checked", alternate ? "true" : "false");
           if (alternate) {
             toggle.classList.add("alternate");
           } else {
@@ -150,19 +145,13 @@ ul.task-list li input[type="checkbox"] {
       manageTransitions('#quarto-margin-sidebar .nav-link', true);
       // Switch the toggles
       setColorSchemeToggle(alternate)
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455).
-    // Not run on load: stylesheets are set before first paint there, and
-    // scrolling would undo the scroll to a URL fragment (#14973).
-    // The one pixel nudge keeps the reader where they were.
-    const refreshSafariScrollbar = () => {
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
       if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
         manageTransitions("body", false);
-        const scrollY = window.scrollY;
-        window.scrollTo(0, scrollY > 0 ? scrollY - 1 : 1);
+        window.scrollTo(0, 1);
         setTimeout(() => {
-          window.scrollTo(0, scrollY);
+          window.scrollTo(0, 0);
           manageTransitions("body", true);
         }, 40);
       }
@@ -256,7 +245,6 @@ ul.task-list li input[type="checkbox"] {
       // Read the current dark / light value
       let toAlternate = !hasAlternateSentinel();
       toggleColorMode(toAlternate);
-      refreshSafariScrollbar();
       setStyleSentinel(toAlternate);
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
@@ -271,14 +259,15 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">The Great Lake Motorbike Blog</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -290,9 +279,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <button type="button" role="switch" aria-checked="false" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode" aria-label="Toggle dark mode"><i class="bi"></i></button>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
-            <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -333,7 +321,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Contents</h2>
    
   <ul>
@@ -343,7 +331,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content" tabindex="-1">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
@@ -355,16 +343,16 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="../../images/DSC03851.JPEG" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
 </figure>
 </div>
-<p>I got this bike as a correction to my mistake in buying the <a href="../../posts/honda_cb125f/index.html">Honda CB125F</a>. I wanted enough power for the bike to be ‘usable’, while retaining attributes of the Honda I liked. The <a href="../../posts/honda_cb125f/index.html">Honda</a> attributes I wanted to retain were tidyness (i.e., new or low kms), fuel efficiency, practically/reliability - and of course, a low price to maximise value. So when a Suzuki GSX 250 with 2300 km’s for $3,860 came up for sale in Wellington, I decided to hop on the InterCity bus and buy it.</p>
-<p>On paper, I don’t understand why more people aren’t buying this bike. At the time of writing there are only 64 of the RL <em>naked bike</em> style currently registered in NZ.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> The GSX 250 RL is a stylish, petrol efficient, peppy little bike with modern technology. And the biggest draw - it’s $4,499 NZD brand new!<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> To be fair, this is a promotion from Suzuki, and its regular price is $4,999. Either way, that’s really cheap for a factory fresh little commuter. Sure, it’s put together in China but surely we can still trust Suzuki engineering.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> Kawasaki’s KLX300 is priced at $9,177. The Honda GB350S is $8,995. Even CF MOTO 250 cc bikes are over $7,400 NZD. The GSX 250 RL would need to be really bad in order to make $4,499 bad value.</p>
+<p>I got this bike as a correction to my mistake in buying the <a href="../../posts/honda_cb125f/index.html">Honda CB125F</a>. I wanted enough power for the bike to be ‘usable’, while retaining attributes of the Honda I liked. The <a href="../../posts/honda_cb125f/index.html">Honda</a> attributes I wanted to retain were tidyness (i.e., new or low kms), fuel efficiency, practically/reliability - and of course, a low price to maximise value. So when a Suzuki GSX 250 with 2300 km’s for $3,860 came up for sale in Wellington, I hopped on the InterCity bus to buy it.</p>
+<p>On paper, I don’t understand why more people aren’t buying this bike. At the time of writing there are only 64 of the RL <em>naked bike</em> version registered in NZ.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> The GSX 250 RL is a stylish, petrol efficient, peppy little bike with modern technology. And the biggest draw - it’s $4,499 NZD brand new!<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> To be fair, this is a promotion from Suzuki, and its regular price is $4,999. Either way, that’s really cheap for a factory-fresh little commuter. Sure, it’s put together in China but surely we can still trust Suzuki engineering.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> Kawasaki’s KLX300 is priced at $9,177. The Honda GB350S is $8,995. Even CF MOTO 250 cc bikes are over $7,400 NZD. The GSX 250 RL would need to be really bad in order to make it ($4,499) a bad value.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../../images/DSC03860.JPEG" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
 </figure>
 </div>
-<p>Perhaps people are aware of this bike but are blinded by its bad rap. ‘Gixxer 250’ immediately conjures images broccoli headed teenage boys with undeveloped frontal lobes. A stereotype that has a lot of overlap with <em>Surron riders</em>. If you write off the GSX 250 because of this rider stereotype - that’s a shame - for all usual reasons stereotyping is flawed thinking.</p>
-<p>Sadly, this bad rap is not totally unfounded. 99% of this bad rap, however, comes from the GSX 250 <strong>R</strong> <em>sport bike</em>, not the <strong>RL</strong> <em>naked bike</em> discussed here. People who want to look the part buy the GSX 250 <strong>R</strong>. The <strong>RL</strong> is redeemed by presenting as what it really is - a low performance, cheap runabout.</p>
-<p>But lets assume people aren’t conflating the rider stereotype of the Gixxer 250 RL with its sport bike twin and choosing not to buy this bike for that reason; why don’t we see more of these bikes in NZ? Clearly others are not seeing good value here. Value is a ratio between price and performance - and we know the price is hard to beat - so, do we need to accept significantly degraded performance?</p>
+<p>Perhaps people are aware of this bike but are blinded by its bad rap. ‘Gixxer 250’ immediately conjures images broccoli-headed teenage boys with undeveloped frontal lobes. A stereotype that has a lot of overlap with <em>Surron riders</em>. If you write off the GSX 250 because of this rider stereotype, that’s a shame, for all the usual reasons stereotyping is flawed thinking.</p>
+<p>Sadly, this bad rap is not totally unfounded. However, 99% of this bad rap, comes from the GSX 250 <strong>R</strong> <em>sport bike</em>, not the <strong>RL</strong> <em>naked bike</em> discussed here. People who want to look the part buy the GSX 250 <strong>R</strong>. The <strong>RL</strong> is redeemed by presenting as what it really is - a low performance, cheap runabout. Two very similar bikes with very different buyers.</p>
+<p>But let’s assume people aren’t conflating the rider stereotype of the GSX 250 RL with its sport bike twin and choosing not to buy this bike for that reason; why don’t we see more of these bikes in NZ? Clearly others are not seeing good value here. We know the price is unbeaten, so, do we need to expect significantly degraded performance?</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../../images/DSC03569.JPEG" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:90.0%"></p>
@@ -372,18 +360,20 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="driving-the-gsx-250-rl" class="level2">
 <h2 class="anchored" data-anchor-id="driving-the-gsx-250-rl">Driving the GSX 250 RL</h2>
-<p>The GSX 250 RL is an excellent urban ride. Gearing is great for city streets, and It’s clear that Suzuki has pushed as much out of this engine as they could. At high revs it actually packs a good little punch. In other words, the engine is not understressed. Does that mean it’s overstressed? Maybe, and maybe this is why the guy at the shop told me “be careful those engines tend to pop”. But I’d rather have an engine pushed to its limits and my wrist modulate the stress then leave performance untapped. It seems to pull in as much air, and push in as much fuel in as it can! If that makes sense.</p>
-<p>Surprisingly the GSX 250 RL is not as ‘flicky’ as you might suspect, and its geometry promotes longer sweeping turns. Footpegs rarely rub the ground (for me anyway), the brakes are fine, and the gear spacing is perfectly un-notable. That all said, there are a few particularly annoying qualities to this bike.</p>
+<p>The GSX 250 RL is an excellent urban ride. Gearing is great for city streets, and it’s clear Suzuki pushed as much out of this little engine as they could. At high revs it actually packs a noticeable punch. In other words, the engine is <em>not</em> understressed. Does that mean it’s overstressed? Maybe, and maybe this is why the guy at the shop told me “be careful those engines tend to pop”. But I’d rather have an engine pushed to its limits and my wrist modulate engine stress then leave performance untapped. It seems to pull in as much air, and push in as much fuel in as it can! If that makes sense.</p>
+<p>Surprisingly the GSX 250 RL is not as ‘flicky’ as you might suspect, and its geometry promotes longer, sweeping turns. Footpegs rarely rub the ground (for me anyway), the brakes are <em>fine</em>, and the gear spacing is perfectly un-notable. That all said, there are a few particularly annoying qualities to this bike.</p>
 <ul>
-<li>The suspension is terrible. Absolute bone smashing, highway jittering trash.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></li>
-<li>The bike lets you drive away with the kickstand down AND lets you start it while in gear? That’s right, if you try to start the bike in first gear it will let you and lurch forward. Don’t ask how I know (lost some aura in town from that one). These are basic safety features Suzuki - come on!</li>
-<li>I would say tiny gas tank but lets forgive this one. It’s a city bike after all and not meant for road tripping.</li>
+<li>The suspension is terrible. Absolute bone-smashing, highway-jittering trash.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></li>
+<li>The bike lets you drive away with the kickstand down AND lets you start it while in gear? That’s right, if you try to start the bike in first gear it will let you and lurch forward. Don’t ask how I know (lost some aura in town from that one). These are basic safety features Suzuki, come on!</li>
+<li>I would say tiny gas tank, but lets forgive this one. It’s a city bike after all and not meant for road tripping.</li>
 </ul>
 </section>
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>The Suzuki GSX 250 RL is a good bike. Suzuki clearly cut corners to keep the price down, but it looks the part, handles well, and squeezes the most out of its little motor as possible. Besides the suspension, this little bike is very fun to ride.</p>
-<p>So back to the question; is the Suzuki GSX 250 RL good value? Absolutely. If your looking to maximise your value on a new, small capacity bike that looks the part, the Suzuki GSX 250 is for you. The build quality will not impress you, and you may become infertile after hitting a pothole, but you won’t get on the road having fun with a brand new bike for less $ then this.</p>
+<p>The Suzuki GSX 250 RL is a good bike. Suzuki clearly cut corners to keep the price down, but it’s stylish, handles well, and squeezes the most out of its little motor as possible. Besides the suspension, this bike is very fun to ride.</p>
+<p>So is the Suzuki GSX 250 RL good value? Absolutely. If you’re looking to maximise your value on a new, small capacity bike that looks the part, the Suzuki GSX 250 is for you. The build quality will not impress you, and you may become infertile after hitting a pothole, but you won’t get on the road having fun with a brand new bike for cheaper then this.</p>
+<script src="https://giscus.app/client.js" data-repo="johnryder1998/quarto_motorbike_blog" data-repo-id="R_kgDOSxe2MA" data-category="General" data-category-id="DIC_kwDOSxe2MM4DFp4n" data-mapping="url" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="en" crossorigin="anonymous" async="">
+</script>
 
 
 </section>
@@ -394,7 +384,7 @@ ul.task-list li input[type="checkbox"] {
 <ol>
 <li id="fn1"><p>According to <a href="https://vehiclefinder.co.nz/">vehiclefinder</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>At the time of publishing, of course<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>The idea that Chinese manufacturing is sub-par I suspect at least partially arises from racist perspectives. It seems abundantly clear in 2026 that China’s manufacturing is world class. Get with the times, and let the evidence speak for itself.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>The idea that Chinese manufacturing is sub-par I suspect at least partially arises from racist perspectives. It seems abundantly clear in 2026 that China’s manufacturing is world-class. Get with the times, and let the evidence speak for itself.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn4"><p>Moreover, if you’re a man, the saddle forces your bits right into the gas tank, which essentially rises like a vertical wall from the front of the saddle. So yea, some decent suspension would go a long way here.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
@@ -403,50 +393,15 @@ ul.task-list li input[type="checkbox"] {
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
     if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const toggle = window.document.createElement('button');
-      toggle.type = "button";
-      toggle.setAttribute("role", "switch");
-      toggle.setAttribute("aria-checked", "false");
-      toggle.classList.add('top-right');
-      toggle.classList.add('quarto-color-scheme-toggle');
-      toggle.setAttribute("aria-label", "Toggle dark mode");
-      toggle.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
       const i = window.document.createElement("i");
       i.classList.add('bi');
-      toggle.appendChild(i);
-      // Put the toggle in a landmark of its own, so that landmark navigation
-      // can reach it.
-      //
-      // The container is always a fresh direct child of body, and the toggle is
-      // never moved into page furniture that the theme or the author controls.
-      // The toggle is positioned against the page, so any ancestor that
-      // establishes a containing block captures it: a positioned element or a
-      // grid for position: absolute, and transform, filter, will-change or
-      // contain for position: fixed. A direct child of body has none of these
-      // to inherit, and the shift when one appears is silent and visual.
-      //
-      // ARIA says a document should have at most one banner, and axe reports a
-      // duplicate whether or not the banners carry distinct labels. So use a
-      // header when the page has no banner yet, and a named region otherwise.
-      //
-      // A header is a banner wherever it sits, unless it is inside sectioning
-      // content, so this cannot just look at the children of body: a custom
-      // page layout wraps the title block header in a plain div. An explicit
-      // role="banner" always counts.
-      const sectioning = 'article, aside, main, nav, section, [role="article"], [role="complementary"], [role="main"], [role="navigation"], [role="region"]';
-      const hasBanner = Array.from(
-        window.document.querySelectorAll('header:not([role]), [role="banner"]')
-      ).some(function(el) {
-        return el.hasAttribute("role") || el.closest(sectioning) === null;
-      });
-      const container = window.document.createElement(hasBanner ? "div" : "header");
-      if (hasBanner) {
-        container.setAttribute("role", "region");
-        container.setAttribute("aria-label", "Toggle dark mode");
-      }
-      container.classList.add('quarto-color-scheme-toggle-container');
-      container.appendChild(toggle);
-      window.document.body.appendChild(container);
+      a.appendChild(i);
+      window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
@@ -525,8 +480,7 @@ ul.task-list li input[type="checkbox"] {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-      window.quartoDecorateExternalLinks = function (root) {
-     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -535,69 +489,8 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
-          if (!link.classList.contains('no-external-icon')) {
-          }
         }
       }
-      };
-      window.quartoDecorateExternalLinks(window.document);
-    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
-    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
-    const hideOnEscAndFocusOut = {
-      name: 'hideOnEscAndFocusOut',
-      defaultValue: true,
-      fn(instance) {
-        const dismiss = () => {
-          // A show scheduled by the trigger delay would otherwise reopen it
-          instance.clearDelayTimeouts();
-          instance.hide();
-        };
-        const onKeyDown = (event) => {
-          if (event.key !== 'Escape') {
-            return;
-          }
-          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
-          // except an open reveal.js slide menu, which Esc should close too.
-          // The menu handles keys only when its keyboard option is on.
-          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
-            window.Reveal.getConfig().menu?.keyboard !== false;
-          if (!menuHandlesEsc) {
-            event.stopPropagation();
-          }
-          if (instance.popper.contains(window.document.activeElement)) {
-            // Disabled while refocusing so the focus trigger does not reopen it
-            instance.disable();
-            instance.reference.focus();
-            instance.enable();
-          }
-          dismiss();
-        };
-        const onFocusOut = (event) => {
-          const target = event.relatedTarget;
-          if (target && !instance.reference.contains(target) &&
-              !instance.popper.contains(target)) {
-            dismiss();
-          }
-        };
-        // On the trigger too: a click trigger (code-annotations: select) has no
-        // blur handling. Attached for the instance's lifetime so leaving the
-        // trigger also cancels a show still pending on the trigger delay.
-        instance.reference.addEventListener('focusout', onFocusOut);
-        return {
-          onShow() {
-            window.document.addEventListener('keydown', onKeyDown, true);
-            instance.popper.addEventListener('focusout', onFocusOut);
-          },
-          onHide() {
-            window.document.removeEventListener('keydown', onKeyDown, true);
-            instance.popper.removeEventListener('focusout', onFocusOut);
-          },
-          onDestroy() {
-            instance.reference.removeEventListener('focusout', onFocusOut);
-          },
-        };
-      },
-    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -611,7 +504,6 @@ ul.task-list li input[type="checkbox"] {
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
-        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -774,54 +666,44 @@ ul.task-list li input[type="checkbox"] {
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          // Each band is positioned against its own containing block, which is
-          // not the offsetParent of the lines, so place it from client rects.
-          const placeBand = (band, firstEl, lastEl, codeBlock) => {
-            const container = band.offsetParent;
-            if (container === null) {
-              return;
-            }
-            const containerRect = container.getBoundingClientRect();
-            // Reveal.js scales slides with a transform, so convert client
-            // pixels back to the CSS pixels of the container.
-            const scale = containerRect.height / container.offsetHeight || 1;
-            const firstRect = firstEl.getBoundingClientRect();
-            const lastRect = lastEl.getBoundingClientRect();
-            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
-            const height = (lastRect.bottom - firstRect.top) / scale;
-            band.style.top = top - 2 + "px";
-            band.style.height = height + 4 + "px";
-            if (codeBlock) {
-              // Without the copy button wrapper, the containing block is wider
-              // than the code block, so span the code block explicitly.
-              const blockRect = codeBlock.getBoundingClientRect();
-              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
-              band.style.width = blockRect.width / scale + "px";
-            }
-          };
+          let top = null;
+          let height = null;
+          let parent = null;
           if (lineIds.length > 0) {
-            const el = window.document.getElementById(lineIds[0]);
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const parent = el.parentElement.parentElement;
-            // cook up a div (if necessary) and position it
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
             }
-            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
             }
-            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -919,9 +801,6 @@ ul.task-list li input[type="checkbox"] {
       }
     }
   });
-  </script>
-  <script type="application/javascript">
-  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
 
