@@ -2,10 +2,10 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/1993_Yamaha_SRV250S/index.html",
-      "/posts/kawasaki_klr_650/index.html",
       "/posts/suzuki_gixxer_250/index.html",
-      "/posts/honda_cb125f/index.html"
+      "/posts/honda_cb125f/index.html",
+      "/posts/kawasaki_klr_650/index.html",
+      "/posts/1993_Yamaha_SRV250S/index.html"
     ]
   }
 ]
