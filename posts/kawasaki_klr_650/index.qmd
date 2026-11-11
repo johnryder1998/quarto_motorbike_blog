@@ -2,7 +2,7 @@
 title: "Kawasaki KLR 650"
 author: "John Ryder"
 #date: "2026-08-19"
-categories: [review, analysis]
+categories: [long-term review, overnight trip, analysis]
 image: "../../images/coming_soon.jpeg"
 ---
 

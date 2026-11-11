@@ -2,7 +2,7 @@
 title: "2024 Suzuki GSX 250 RL"
 author: "John Ryder"
 date: "2026-11-10"
-categories: [review, analysis]
+categories: [long-term review, analysis]
 image: "../../images/DSC03851.JPEG"
 comments:
   hypothesis:
