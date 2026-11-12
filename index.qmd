@@ -2,20 +2,19 @@
 title: "GLMB Homepage"
 listing:
   contents: posts
-# type: grid
-# table-hover: true
-# grid-item-align: left
-# grid-columns: 3
   fields: [image, categories, description, date, title, author, reading-time]
-# image-height: 100px
   categories: true
   sort-ui: [title, date]
   filter-ui: false
-  image-align: right
+  image-align: left
   date-format: long
-page-layout: full
-title-block-banner: true
+format:
+  html:
+    page-layout: full
+title-block-banner: false
 ---
 
 #### Welcome to the Great Lake Motorbike blog. A down-under motorbike reviews and lifestyle blog riding around lake Taupō.
 
+
+\ \

@@ -3,11 +3,10 @@ title: "Honda CB125F"
 author: "John Ryder"
 date: "2026-09-21"
 categories: [long-term review, analysis]
+title-block-banner: false
 image: "../../images/DSC03115.JPG"
 from: markdown+emoji`
 ---
-
-# Honda CB125F
 
 ![](../../images/DSC03115.JPG)
 
