@@ -2,11 +2,10 @@
 title: "Yamaha SRV 250 S"
 author: "John Ryder"
 #date: ""
+title-block-banner: false
 categories: [long-term review, analysis, classic]
 image: "../../images/coming_soon.jpeg"
 ---
-
-# Yamaha SRV 250 S
 
 ***Coming soon...***
 
