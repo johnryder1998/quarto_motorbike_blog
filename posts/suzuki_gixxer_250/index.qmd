@@ -5,9 +5,6 @@ date: "2026-11-10"
 categories: [long-term review, analysis]
 image: "../../images/DSC03851.JPEG"
 title-block-banner: false
-comments:
-  hypothesis:
-    theme: clean
 format: 
   html:
     page-layout: full
