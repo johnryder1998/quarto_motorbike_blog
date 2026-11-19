@@ -5,4 +5,6 @@ about:
   template: jolla
 ---
 
-Hello, my name is John. I've been riding motorcycles since the beginning of 2022. The aim of this blog is to critically discuss motorbikes and showcase the natural beauty of central Waikato. Big picture, I think I'm trying to find *the worlds best motorbike*. This will take a while.
+Hello, my name is John. I've been riding motorcycles since the beginning of 2022. The aim of this blog is to critically discuss motorbikes and exhibit photography of motorbikes and the central Waikato. Big picture, I think I'm trying to find *the worlds best motorbike*. This will take a while.
+
+All pictures are mine, and no AI is used in the creation of this blog.
